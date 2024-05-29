@@ -37,8 +37,6 @@ public class FullContactActivity extends AppCompatActivity {
 
             ContactApi.updateContact(contact);
 
-            //Intent intent = new Intent(FullContactActivity.this, MainActivity.class);
-            //startActivity(intent);
             finish();
         });
     }
